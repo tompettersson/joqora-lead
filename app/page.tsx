@@ -124,7 +124,7 @@ const KPI: React.FC<{ title: string; value: string; sub?: string }> = ({
   sub,
 }) => (
   <Card className="flex h-full flex-col rounded-2xl border-slate-200 bg-white/90 shadow-sm transition-all hover:shadow-md">
-    <CardContent className="flex flex-1 flex-col justify-between pt-8 pb-6 px-6">
+    <CardContent className="flex flex-1 flex-col justify-between pt-4 pb-6 px-6">
       <div className="mb-4 text-xs uppercase tracking-wide text-slate-500 text-center">
         {title}
       </div>
@@ -187,7 +187,7 @@ export default function LeadMagnetLanding() {
               für OQEMA
             </h1>
           </div>
-          <p className="max-w-4xl text-lg leading-relaxed text-slate-700">
+          <p className="max-w-4xl text-base leading-relaxed text-slate-700 pr-2">
             Die Plattform generiert qualifizierte Produktanfragen und leitet alle passenden Anfragen direkt an OQEMA weiter. 
             Viele Produkte sind nicht direkt im Shop kaufbar – die Anfragefunktion ist der eigentliche Hebel.
           </p>
@@ -445,6 +445,7 @@ export default function LeadMagnetLanding() {
                   strokeWidth={2}
                   dot={false}
                   legendType="none"
+                  hide
                 />
                 <Line
                   type="monotone"
@@ -453,6 +454,7 @@ export default function LeadMagnetLanding() {
                   strokeWidth={3}
                   dot={false}
                   legendType="none"
+                  hide
                 />
               </ComposedChart>
             </ResponsiveContainer>
