@@ -3,8 +3,8 @@ import "./globals.css";
 import { AuthProvider } from "@/components/auth";
 
 export const metadata: Metadata = {
-  title: "JOQORA.DE - Lead Magnet für OQEMA",
-  description: "Die Plattform generiert qualifizierte Produktanfragen und leitet alle passenden Anfragen direkt an OQEMA weiter.",
+  title: "JOQORA – Jahresrückblick 2025",
+  description: "Lead-Magnet für OQEMA: 618 t über Leads realisiert, 313 t Gesamtshop. Die wichtigsten Zahlen im Überblick.",
 };
 
 export default function RootLayout({
