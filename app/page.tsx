@@ -27,7 +27,7 @@ const leadStats = {
   offerPotentialT: 1217, // t Angebotsvolumen (angebotene Menge Lieferung)
   annualPotentialT: 19748, // t bekannte Jahresbedarfe (wenn bekannt)
   shopOqemaT: 26, // t OQEMA-Anteil im Shop
-  shopTotalT: 313, // t Gesamtshop (extrapoliert: 260.92t Jan-Okt → 313t/Jahr)
+  shopTotalT: 316, // t Gesamtshop (Jan-Dez 2025)
   offerCount: 71, // Anzahl Einzelanfragen mit Angebot
 };
 
@@ -193,7 +193,7 @@ export default function LeadMagnetLanding() {
           <div className="text-center max-w-3xl mx-auto mb-8">
             <p className="text-lg md:text-xl leading-relaxed text-slate-700">
               Über JOQORA-Leads wurden <span className="font-semibold text-slate-900">618 t</span> für OQEMA realisiert.
-              Zum Vergleich: Das gesamte Shop-Geschäft beträgt <span className="font-semibold text-slate-900">313 t</span> (26 t OQEMA-Anteil).
+              Zum Vergleich: Das gesamte Shop-Geschäft beträgt <span className="font-semibold text-slate-900">316 t</span> (26 t OQEMA-Anteil).
               Die Anfragenden repräsentieren zudem einen kumulierten Jahresbedarf von knapp 20.000 t.
             </p>
           </div>

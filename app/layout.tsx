@@ -4,7 +4,7 @@ import { AuthProvider } from "@/components/auth";
 
 export const metadata: Metadata = {
   title: "JOQORA – Jahresrückblick 2025",
-  description: "Lead-Magnet für OQEMA: 618 t über Leads realisiert, 313 t Gesamtshop. Die wichtigsten Zahlen im Überblick.",
+  description: "Lead-Magnet für OQEMA: 618 t über Leads realisiert, 316 t Gesamtshop. Die wichtigsten Zahlen im Überblick.",
 };
 
 export default function RootLayout({
